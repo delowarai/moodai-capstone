@@ -98,7 +98,7 @@ docs/
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 ```bash
@@ -191,9 +191,9 @@ The AI companion is explicitly instructed to be supportive, grounded in the user
 
 I design and build **full-stack AI products** - from privacy-conscious architecture to real LLM integrations like this one. If you're looking for someone to build a thoughtful, production-ready AI application for your business, let's talk.
 
-📧 **Email:** [delowarhossain.cse.63@gmail.com](mailto:delowarhossain.cse.63@gmail.com)
-💼 **LinkedIn:** [linkedin.com/in/mohammaddelowarhossain63](https://www.linkedin.com/in/mohammaddelowarhossain63/)
-🐙 **GitHub:** [@delowarhossaincse63](https://github.com/delowarhossaincse63)
+ **Email:** [delowarhossain.cse.63@gmail.com](mailto:delowarhossain.cse.63@gmail.com)
+ **LinkedIn:** [linkedin.com/in/mohammaddelowarhossain63](https://www.linkedin.com/in/mohammaddelowarhossain63/)
+ **GitHub:** [@delowarhossaincse63](https://github.com/delowarhossaincse63)
 
 ---
 
