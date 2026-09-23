@@ -11,7 +11,7 @@
 [![Claude](https://img.shields.io/badge/AI-Anthropic%20Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-**[🌐 Live Demo](https://moodai-capstone.vercel.app)**
+**[ Live Demo](https://moodai-capstone.vercel.app)**
 
 [Overview](#-overview) • [Features](#-features) • [Architecture](#-architecture) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started) • [Privacy & Safety](#-privacy--safety) • [Contact](#-lets-connect)
 
