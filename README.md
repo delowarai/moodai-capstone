@@ -61,7 +61,7 @@ Browser (React + Vite)
                   Anthropic Claude Messages API
 ```
 
-**Key design decision:** raw mood entries stay in the user's browser. Only a computed, anonymized summary and the current chat message are ever sent to the AI endpoint — the API key and full context never touch the client.
+**Key design decision:** raw mood entries stay in the user's browser. Only a computed, anonymized summary and the current chat message are ever sent to the AI endpoint - the API key and full context never touch the client.
 
 ---
 
