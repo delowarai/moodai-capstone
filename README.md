@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🧠 MoodAI
+# MoodAI
 
 ### Privacy-First Mood Tracking & AI Reflection Platform
 
-*Turns daily check-ins into meaningful emotional insights — powered by React, Vite, and Anthropic Claude.*
+*Turns daily check-ins into meaningful emotional insights - powered by React, Vite, and Anthropic Claude.*
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -23,27 +23,27 @@
 
 Most mood-tracking apps collect data and leave users to figure out what it means. **MoodAI closes that gap.**
 
-Users log their mood, emotions, activities, sleep, and energy each day. MoodAI turns those entries into a live analytics dashboard — and pairs it with an **AI companion** that reads the summarized trends and offers warm, data-aware reflections, without ever seeing or storing the user's raw journal data on a server.
+Users log their mood, emotions, activities, sleep, and energy each day. MoodAI turns those entries into a live analytics dashboard - and pairs it with an **AI companion** that reads the summarized trends and offers warm, data-aware reflections, without ever seeing or storing the user's raw journal data on a server.
 
-It's built as a genuine **capstone-grade full-stack product**: a React frontend, a secure serverless AI backend, real privacy engineering, and thoughtful safety guardrails — not just a demo.
+It's built as a genuine **capstone-grade full-stack product**: a React frontend, a secure serverless AI backend, real privacy engineering, and thoughtful safety guardrails - not just a demo.
 
-> ⚠️ MoodAI is a wellness reflection tool. It is **not** a clinical, diagnostic, or crisis-response product.
-
----
-
-## ✨ Features
-
-- 📝 **Daily Check-ins** — mood, emotions, activities, sleep, energy, and optional journal notes
-- 📊 **Analytics Dashboard** — averages, streaks, mood distribution, emotion frequency, and activity-impact analysis, computed entirely client-side
-- 🤖 **AI Companion** — powered by Anthropic Claude via a secure serverless API route, giving supportive, data-grounded reflections
-- 🔒 **Privacy by Design** — raw entries never leave the browser; the AI only ever sees an aggregated summary
-- 🛟 **Graceful Fallback** — local insights still work even if the AI provider is unavailable
-- 🗂️ **Entry History** — full history view with delete support
-- 📱 **Responsive UI** — clean experience across desktop and mobile
+>  MoodAI is a wellness reflection tool. It is **not** a clinical, diagnostic, or crisis-response product.
 
 ---
 
-## 🏗 Architecture
+## Features
+
+-  **Daily Check-ins** — mood, emotions, activities, sleep, energy, and optional journal notes
+-  **Analytics Dashboard** — averages, streaks, mood distribution, emotion frequency, and activity-impact analysis, computed entirely client-side
+-  **AI Companion** — powered by Anthropic Claude via a secure serverless API route, giving supportive, data-grounded reflections
+-  **Privacy by Design** — raw entries never leave the browser; the AI only ever sees an aggregated summary
+-  **Graceful Fallback** — local insights still work even if the AI provider is unavailable
+-  **Entry History** — full history view with delete support
+-  **Responsive UI** — clean experience across desktop and mobile
+
+---
+
+## Architecture
 
 ```
 Browser (React + Vite)
@@ -65,7 +65,7 @@ Browser (React + Vite)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -78,7 +78,7 @@ Browser (React + Vite)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 api/
@@ -128,7 +128,7 @@ npx vercel dev
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---|---|
@@ -139,18 +139,18 @@ npx vercel dev
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Variable | Required | Description |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | ✅ Yes | Used by the serverless function to call Claude |
 | `ANTHROPIC_MODEL` | ❌ No | Claude model name — defaults to `claude-sonnet-4-20250514` |
 
-> ⚠️ Never expose the Anthropic API key in frontend code. Keep it in local env files or Vercel's environment variable settings only.
+>  Never expose the Anthropic API key in frontend code. Keep it in local env files or Vercel's environment variable settings only.
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 MoodAI is pre-configured for one-click Vercel deployment:
 
@@ -169,15 +169,15 @@ Redeploy after any environment variable change so the serverless function picks 
 
 ---
 
-## 🤖 AI Workflow
+## AI Workflow
 
-MoodAI uses **context injection**, not custom model training. The browser computes a structured summary of local mood data — averages, recent trend, top emotions, top activities, activity impact, and recent notes — and sends it to `/api/chat`, where it's inserted into Claude's system prompt.
+MoodAI uses **context injection**, not custom model training. The browser computes a structured summary of local mood data - averages, recent trend, top emotions, top activities, activity impact, and recent notes - and sends it to `/api/chat`, where it's inserted into Claude's system prompt.
 
 The AI companion is explicitly instructed to be supportive, grounded in the user's actual data, careful about uncertainty, and to never diagnose, prescribe treatment, or present itself as a clinician.
 
 ---
 
-## 🔒 Privacy & Safety
+## Privacy & Safety
 
 - Raw mood entries are stored only in the browser (`localStorage`) — no database
 - The AI endpoint receives only a summarized version of the data, never raw journal entries
@@ -187,9 +187,9 @@ The AI companion is explicitly instructed to be supportive, grounded in the user
 
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
-I design and build **full-stack AI products** — from privacy-conscious architecture to real LLM integrations like this one. If you're looking for someone to build a thoughtful, production-ready AI application for your business, let's talk.
+I design and build **full-stack AI products** - from privacy-conscious architecture to real LLM integrations like this one. If you're looking for someone to build a thoughtful, production-ready AI application for your business, let's talk.
 
 📧 **Email:** [delowarhossain.cse.63@gmail.com](mailto:delowarhossain.cse.63@gmail.com)
 💼 **LinkedIn:** [linkedin.com/in/mohammaddelowarhossain63](https://www.linkedin.com/in/mohammaddelowarhossain63/)
@@ -197,12 +197,12 @@ I design and build **full-stack AI products** — from privacy-conscious archite
 
 ---
 
-## 📄 License
+## License
 
 This project is provided for educational and portfolio use.
 
 <div align="center">
 
-⭐ If you find this project useful, consider giving it a star — it helps a lot!
+If you find this project useful, consider giving it a star - it helps a lot!
 
 </div>
